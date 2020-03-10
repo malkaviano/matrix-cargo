@@ -6,6 +6,8 @@ API to get Github repos by language
 
 Only one endpoint: /github/:lang?page=number
 
+Swagger /api
+
 Due to github limitation, only 1000 results can be acquired by search.
 
 ## Installation
