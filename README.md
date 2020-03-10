@@ -4,7 +4,7 @@ Programming test
 
 API to get Github repos by language
 
-Only one endpoint: /git/:lang?page=number
+Only one endpoint: /github/:lang?page=number
 
 Due to github limitation, only 1000 results can be acquired by search.
 
