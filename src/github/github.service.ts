@@ -3,7 +3,7 @@ import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
 @Injectable()
-export class GitService {
+export class GithubService {
     constructor(private readonly httpService: HttpService) { }
 
     getGitRepos(lang: string, page: number = 1): Observable<any[]> {

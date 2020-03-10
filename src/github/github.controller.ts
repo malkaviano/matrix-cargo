@@ -1,10 +1,10 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 
-import { GitService } from './git.service';
+import { GithubService } from './github.service';
 
-@Controller('git')
-export class GitController {
-    constructor(private readonly service: GitService) {}
+@Controller('github')
+export class GithubController {
+    constructor(private readonly service: GithubService) {}
 
     @Get(':lang')
     async getRepos(@Param('lang') lang: string, @Query('page') page: number): Promise<any> {

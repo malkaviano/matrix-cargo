@@ -1,17 +1,17 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { GitService } from './git.service';
+import { GithubService } from './github.service';
 import { HttpModule } from '@nestjs/common';
 
-describe('GitService', () => {
-  let service: GitService;
+describe('GithubService', () => {
+  let service: GithubService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [GitService],
+      providers: [GithubService],
       imports: [HttpModule]
     }).compile();
 
-    service = module.get<GitService>(GitService);
+    service = module.get<GithubService>(GithubService);
   });
 
   it('should be defined', () => {
