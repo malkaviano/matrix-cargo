@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/malkaviano/matrix-cargo/badge)](https://www.codefactor.io/repository/github/malkaviano/matrix-cargo)
+
 ## Description
 
 Programming test
